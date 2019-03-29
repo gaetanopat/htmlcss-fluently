@@ -1,0 +1,356 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+}
+/* per il body */
+body{
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+}
+/* background blu */
+.blue_background{
+  background-color: #0d325a;
+}
+/* stile per dei link */
+.link_style{
+  text-decoration:none;
+  color:white;
+  font-weight:bold;
+  border-radius:5px;
+}
+/* grandezza per dei link */
+.link_size{
+  font-size:12px;
+}
+/* colore della linea */
+hr{
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* per i link con sfondo verde */
+.green_link{
+  background-color: #7fb802;
+}
+/* per il link con bordo blu */
+header .blue_link{
+  border: 1px solid #4e8cb6;
+}
+/* padding per dei link */
+.padding_link{
+  padding:8px 10px;
+}
+/* padding per dei paragrafi */
+.padding_p{
+  padding:10px 100px 10px 0;
+}
+/* per il container */
+.container{
+  width:80%;
+  margin:0 auto;
+  height:100%;
+}
+/* per le colonne */
+.col1,.col2,.col3, .col50, .col30{
+  float:left;
+}
+/* dei margini top e bottom */
+.margin_top_bottom{
+  margin:40px 0;
+}
+/* per l'header */
+header{
+  width:100%;
+  height:70px;
+}
+/* per togliere lo spazio alle liste */
+header ul, .view_plan ul, footer ul{
+  padding:0;
+}
+/* per i singoli elementi */
+header ul li{
+  display:inline-block;
+  padding:27px 10px;    /* (70-16)/2 */
+  font-size: 11px;
+}
+/* per la colonna 1 dell'header */
+header .col1{
+  width:10%;
+}
+/* per la colonna 2 dell'header */
+header .col2{
+  width:50%;
+}
+/* per la colonna 3 dell'header */
+header .col3{
+  width:40%;
+}
+/* per dare uno margine all'immagine */
+.container .padding_img{
+  margin:15px 0;
+  height:30px;
+}
+/* quando passo sugli elementi */
+header .col2 ul li .link:hover{
+  color:#f8b71c;
+}
+header .container:after{
+  display:table;
+  content:'';
+  clear:both;
+}
+
+/* per la riga 2 */
+.plan_structure{
+  width: 100%;
+  height:400px;
+  position:relative;
+}
+/* per dare un'opacità */
+.plan_structure .p_color,header .col3 .tutor, footer .p_color, .faq p{
+  color: #fff;
+  opacity: .5;
+}
+.plan_structure .col50{
+  height:400px;
+  position:relative;
+}
+/* per mettere al centro */
+.plan_structure .left{
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+/* per il titolo */
+.plan_structure h1{
+  margin-bottom:20px;
+  font-size:45px;
+  color:white;
+}
+/* padding per alcuni link */
+.plan_structure .link, .view_plan .link{
+  padding:10px 20px;
+}
+/* per l'immagine */
+.plan_structure .fluentify_img{
+  position:absolute;
+  width:20%;
+  height:15%;
+  bottom:0;
+  right:0;
+}
+
+.traditional_school{
+  height:auto;
+  text-align:center;
+}
+.traditional_school p.margin_top_bottom{
+  margin-top:20px;
+}
+.traditional_school small+p{
+  padding:0 30%;
+  margin-bottom:20px;
+}
+.traditional_school img{
+  width:600px;
+}
+.traditional_school h2{
+  margin-bottom:20px;
+  font-size:24px;
+}
+.text_color{
+  color:#999;
+}
+.title_color{
+  color:#4a4a4a;
+}
+
+/* dimensioni delle 3 colonne */
+.three_cols .col30{
+  width:33.33%;
+  padding:0 20px;
+}
+.three_cols .text_center{
+  text-align: center;
+}
+.three_cols .col30 img{
+  height:160px;
+}
+.three_cols h2{
+  text-align: center;
+  margin:50px 0;
+}
+.three_cols h6{
+  font-size:23px;
+  color:#7fb802;
+}
+.three_cols img.width_img{
+  width:10%;
+  height:30px;
+  margin:20px auto 20px 0;
+}
+.three_cols .padding_col{
+  padding:0 30px;
+}
+/* per le 3 linee */
+.three_cols hr{
+  margin:20px auto;
+  width:32px;
+  border-top:2px solid;
+}
+.three_cols:after{
+  content:'';
+  clear:both;
+  display:table;
+}
+.three_cols .padding_p{
+  padding:10px 0 10px 0;
+}
+
+
+.level{
+  width:100%;
+}
+.col50{
+  width:50%;
+}
+.level .title_and_p{
+  padding: 80px 80px 0px 80px;
+}
+.level .title_and_p2{
+  padding:80px 0 0 80px;
+}
+.level h2, .three_cols h2{
+  line-height: 30px;
+}
+.level .color_p{
+  text-align:center;
+  color:#a7d0f9;
+  margin-top:0;
+  font-size:14px;
+}
+.level .link_font{
+  font-size:12px;
+}
+.level .col50 .margin_top_bottom{
+  margin-bottom:30px;
+}
+.level img{
+  width: 417px;
+  height:354px;
+  margin-left:80px;
+}
+.level p{
+  margin:10px 0;
+}
+.blue_text{
+  color:#98c8f8;
+}
+.green_text{
+  color: #7fb802;
+}
+.level:after{
+  content:'';
+  display:table;
+  clear:both;
+}
+.level .col50:after{
+  content:'';
+  display:table;
+  clear:both;
+}
+.view_plan h3, .plan_structure h3{
+  font-size:30px;
+}
+.view_plan .special{
+  color: #b2b2b2;
+  font-size: 26px;
+}
+.view_plan ul li{
+  display: inline-block;
+  padding-left:20px;
+}
+.view_plan:after{
+  content:'';
+  display:table;
+  clear:both;
+}
+
+.plan_structure .col50 img{
+  width:100%;
+  height:400px;
+}
+.plan_structure .col50 p{
+  margin:20px 0;
+}
+.yellow_text{
+  color:#f8b71c;
+}
+.plan_structure h3{
+  color:white;
+}
+
+/* per le linee lunghe 100% */
+.structure hr{
+  border-top: 5px solid;
+  text-align:left;
+  margin:10px 0;
+  width:100%;
+}
+/* per il colore verde */
+.structure .green_hr, .traditional_school span{
+  color:#7fb802;
+}
+
+/* sezione FAQ */
+.faq{
+  background-color: #0f335a;
+  padding:40px 0;
+  color:#fff;
+}
+.faq p{
+  padding-top:10px;
+}
+/* per il footer */
+footer{
+  background-color: #17406b;
+  height:350px;
+}
+footer ul{
+  list-style-type: none;
+}
+footer .col50{
+  margin-top:50px;
+}
+footer h5{
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+footer ul li a{
+  text-decoration: none;
+}
+footer ul li {
+  margin:20px 0;
+}
+footer .col50 h3{
+  color:white;
+  font-weight: bold;
+}
+footer .title_margin{
+  margin:30px 0;
+}
+.text_right{
+  text-align:right;
+}
+
+/* per la chat */
+.chat{
+  width:70px;
+  height:40px;
+  position:fixed;
+  bottom:0;
+  right:50px;
+  z-index: 1;
+}
+.chat a{
+  padding:8px 10px 21px;
+}
